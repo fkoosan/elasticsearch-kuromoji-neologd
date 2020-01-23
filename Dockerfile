@@ -1,5 +1,5 @@
 FROM elasticsearch:6.8.6
-MAINTAINER fkoosan <futoshi.kousaka@gaiax.com>
+MAINTAINER fkoosan
 
 USER root
 RUN elasticsearch-plugin install analysis-kuromoji
