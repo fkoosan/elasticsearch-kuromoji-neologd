@@ -15,5 +15,5 @@ docker build -t  fkoosan/elasticsearch-kuromoji-neologd .
 ## running
 
 ```
-docker run --rm -it -p 9200:9200 -p 9300:9300 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" fkoosan/elasticsearch-kuromoji-neologd
+docker run -p 9200:9200 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" fkoosan/elasticsearch-kuromoji-neologd
 ```
