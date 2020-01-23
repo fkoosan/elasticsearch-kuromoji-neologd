@@ -1,5 +1,8 @@
 # elasticsearch-kuromoji-neologd
 docker elasticsearch-kuromoji-neologd
+- elasticsearch 6.8.6
+- kuromoji
+- elasticsearch-analysis-kuromoji-ipadic-neologd 6.8.0
 
 ## how to build
 
